@@ -3,6 +3,6 @@ This an Net Core Web Application that includes service lifetimes representation 
 
 There are three lifetimes
 
-### Singleton
-### Scoped
-### Transient
+###### Singleton
+###### Scoped
+###### Transient
