@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@*Transient için bu kodu aç diğerlerini kapat*@
+Transient
+
+@*Scoped için bu kodu aç diğerlerini kapat*@
+@*Scoped*@
+
+@*Singleton için bu kodu aç diğerlerini kapat*@
+@*Singleton*@
+<table>
+
+    @*Transient için bu kodu aç diğerlerini kapat*@
+    <tr>
+        <td> Value 1 </td>
+        <td> @ViewBag.TransientId1 </td>
+    </tr>
+    <tr>
+        <td> Value 2</td>
+        <td> @ViewBag.TransientId2</td>
+    </tr>
+
+
+    @*Scoped için bu kodu aç diğerlerini kapat*@
+    @*<tr>
+            <td> Value 1 </td>
+            <td> @ViewBag.ScopedId1 </td>
+        </tr>
+        <tr>
+            <td> Value 2</td>
+            <td> @ViewBag.ScopedId2</td>
+        </tr>*@
+
+    @*Singleton için bu kodu aç diğerlerini kapat*@
+    @*<tr>
+            <td> Value 1 </td>
+            <td> @ViewBag.SingletonId1 </td>
+        </tr>
+        <tr>
+            <td> Value 2</td>
+            <td> @ViewBag.SingletonId2</td>
+        </tr>*@
+
+</table>
+
